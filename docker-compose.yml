@@ -1,0 +1,8 @@
+services:
+  finalservice:
+    build: .
+    container_name: finalservice-compose
+    ports:
+      - "7000:7000"
+    volumes:
+      - ./host_logs:/app/logs
