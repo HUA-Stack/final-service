@@ -24,7 +24,7 @@ jobs:
         run: |
           test -f Dockerfile
           test -f docker-compose.yml
-          test -f app/not_exist.py
+          test -f app/main.py
           test -f scripts/run.sh
           test -f .env.example
 
